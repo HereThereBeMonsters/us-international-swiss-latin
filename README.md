@@ -35,51 +35,53 @@ Here is a picture of the layout (made with http://www.keyboard-layout-editor.com
 
 ![Picture of the layout](layout.png)
 
-In this picture, the character at the bootom left of the key is the one produced without any modifier. The one on the upper left id the one produced with [shift]. The one on the bottom right is the one with [alt-gr] (the right [alt] key) and the one on the upper-right is the one with [shift] + [alt-gr].
+In this picture, the character at the bootom left of the key is the one produced without any modifier. The one on the upper left id the one produced with `[shift]`. The one on the bottom right is the one with `[alt-gr]` (the right `[alt]` key) and the one on the upper-right is the one with `[shift] + [alt-gr]`.
 
 ## Basic principle
 
 As you can see, without using the [alt-gr key] the layout is the 
-The basic idea for the layout is the following: use the [alt-gr] key (the right [alt] key) in combination for the basic letter to create the most used accentuated or character. For example
+The basic idea for the layout is the following: use the `[alt-gr]` key (the right `[alt]` key) in combination for the basic letter to create the most used accentuated or character. For example
 
-[alt-gr] + [e] -> é
-[alt-gr] + [o] -> ö
-[alt-gr] + [n] -> ñ
-[alt-gr] + [c] -> ç
+`[alt-gr] + [e] -> é`
+`[alt-gr] + [o] -> ö`
+`[alt-gr] + [n] -> ñ`
+`[alt-gr] + [c] -> ç`
 
-Then, for vowels that have many possible accnted variants, use the neighboring keys for other frequently used combinations, e.g:
+Then, for vowels that have many possible accented variants, use the neighboring keys for other frequently used combinations, e.g:
 
-[alt-gr] + [w] -> è
-[alt-gr] + [r] -> ê
+`[alt-gr] + [w] -> è`
+`[alt-gr] + [r] -> ê`
 
 and so on...
 
-The [alt-gr] + vowel combinations also work with upper case letters, so:
+The `[alt-gr]` + vowel combinations also work with upper case letters, so:
 
-[alt-gr] + [shift] + [e] -> É
-[alt-gr] + [shift] + [o] -> Ö
+`[alt-gr] + [shift] + [e] -> É`
+`[alt-gr] + [shift] + [o] -> Ö`
 etc.
+
+Finally, I also added the conbination [alt-gr] + [g] -> @ just because I got used to it from the Mac keyboard.
 
 ## Dead keys
 
 In addition to the characters typed directly with [alt-gr] + letter, there are also 5 dead keys used to type rarely used accentuated characters.
 
-First the [`~] key is a bit special. Used without the [alt-gr] modifer it just types the `` and ~ characters, which is useful for coding.
+First the `[``~]` key is a bit special. Used without the `[alt-gr]` modifer it just types the `` and ~ characters, which is useful for coding.
 
-With the [alt-gr] modifier, it turns into a dead key, so:
+With the `[alt-gr]` modifier, it turns into a dead key, so:
 
-[alt-gr] + [`~] then [a] -> à
-[alt-gr] + [shift] + [`~] then [a] -> ã
+`[alt-gr] + [``~] then [a] -> à`
+`[alt-gr] + [shift] + [``~] then [a] -> ã`
 
-Then, [alt-gr] + ['"] is a dead key for ¨ (umlaut):
+Then, `[alt-gr] + ['"]` is a dead key for ¨ (umlaut):
 
-[alt-gr] + ['"] then [a] -> ä
+`[alt-gr] + ['"] then [a] -> ä`
 
-[alt-gr] + [ \ ] is a dead key for TODO (grave accent)
+`[alt-gr] + [ \ ]` is a dead key for `(grave accent)
 
-[alt-gr] + [/] is a dead key for [´] (acute accent)
+`[alt-gr] + [/]` is a dead key for ´ (acute accent)
 
-Except for the tilde, those dead kezs all work for the letters A, E, I, O, and U.
+Except for the tilde, those dead keys all work for the letters A, E, I, O, and U, lower and upper case.
 
 # How to use
 
@@ -91,7 +93,7 @@ It required the .Net framework version 2.0 that can be downloaded [here](https:/
 
 In order to modify the keyboard, just open the `*.klc` file in KLC.
 
-The binaries are provided in the `windows/build` folder as ZIP archives. To install the layout, download the relevant ZIP file, decompress it and run the setup.exe file, which will add the lazout to zour windows installation. Then zou have to add the layout to zour user profile. This has become a little convoluted in Windows 10, but Google will help you find a HowTo for that.
+The binaries are provided in the `windows/build` folder as ZIP archives. To install the layout, download the relevant ZIP file, decompress it and run the setup.exe file, which will add the lazout to zour windows installation. Then you have to add the layout to your user profile. This has become a little convoluted in Windows 10, but Google will help you find a HowTo for that. The name of the layout that will appear in the windows dialog is US-Int-Swiss-Lat-v1.
 
 ## Linux
 
