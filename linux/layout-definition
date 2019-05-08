@@ -1,0 +1,45 @@
+
+
+// US-International-Swiss-Latin
+// https://github.com/HereThereBeMonsters/us-international-swiss-latin/
+partial alphanumeric_keys
+xkb_symbols "US-Int-Swiss-Lat-v1" {
+
+   name[Group1]= "English (International-Swiss, EN FR ES DE PT, v1)";
+
+   include "us(basic)"
+
+   // use right alt key (alt_gr) for level 3
+   include "level3(ralt_switch)"
+   // use caps_lock as additional modifier for level 3
+   include "level3(caps_switch)"
+
+   key <TLDE> {	[ grave,        asciitilde,     dead_grave,     dead_tilde  ] };
+   key <AE06> { [ 6,            asciicircum,    dead_circumflex             ] };
+
+   key <AD01> { [ q,            Q,              adiaeresis,     Adiaeresis  ] };
+   key <AD02> { [ w,            W,              egrave,         Egrave      ] };
+   key <AD03> { [ e,            E,              eacute,         Eacute      ] };
+   key <AD04> { [ r,            R,              ecircumflex,    Ecircumflex ] };
+   key <AD05> { [ t,            T,              ediaeresis,     Ediaeresis  ] };
+   key <AD06> { [ y,            Y,              uacute,         Uacute      ] };
+   key <AD07> { [ u,            U,              udiaeresis,     Udiaeresis  ] };
+   key <AD08> { [ i,            I,              icircumflex,    Icircumflex ] };
+   key <AD09> { [ o,            O,              odiaeresis,     Odiaeresis  ] };
+   key <AD10> { [ p,            P,              oacute,         Oacute      ] };
+   key <BKSL> { [ backslash,    bar,            dead_grave                  ] };
+   
+   key <AC01> { [ a,            A,              agrave,         Agrave      ] };
+   key <AC02> { [ s,            S,              atilde,         Atilde      ] };
+   key <AC03> { [ d,            D,              aacute,         Aacute      ] };
+   key <AC04> { [ f,            F,              acircumflex,    Acircumflex ] };
+   key <AC05> { [ g,            G,              at,             EuroSign    ] };
+   key <AC07> { [ j,            J,              idiaeresis,     Idiaeresis  ] };
+   key <AC08> { [ k,            K,              otilde,         Otilde      ] };
+   key <AC09> { [ l,            L,              ocircumflex,    Ocircumflex ] };
+   key <AC11> { [ apostrophe,   quotedbl,       dead_diaeresis              ] };
+
+   key <AB03> { [ c,            C,              ccedilla,       Ccedilla    ] };
+   key <AB06> { [ n,            N,              ntilde,         Ntilde      ] };
+   key <AB10> { [ slash,        question,       dead_acute                  ] };
+};

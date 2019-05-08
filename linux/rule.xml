@@ -1,0 +1,15 @@
+        <variant>
+          <configItem>
+            <name>US-Int-Swiss-Lat-v1</name>           
+            <shortDescription>swissintlat</shortDescription>
+            <description>English (International-Swiss, EN FR ES DE PT, v1)</description>
+            <languageList>
+              <iso639Id>eng</iso639Id>
+              <iso639Id>fra</iso639Id>
+              <iso639Id>deu</iso639Id>
+              <iso639Id>spa</iso639Id>
+              <iso639Id>por</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+    
