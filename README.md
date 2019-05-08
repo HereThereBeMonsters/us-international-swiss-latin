@@ -101,6 +101,8 @@ The binaries are provided in the `windows/build` folder as ZIP archives. To inst
 
 ## Linux
 
+The Linux version has an interesting addition: the `caps_lock` key can be used, in addition to the `alt_gr` key, in order to access the alternative characters.
+
 Note: These instructions are valid and were tested on Ubuntu 18.10. For other versions and distributions, the paths of the files might be different.
 
 To install the layout on Linux:
