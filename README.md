@@ -128,5 +128,6 @@ To install the layout on Linux:
     ```
     - Paste the XML fragment into the `<variants>` element  
 - At this point, the layout should appear as a variant of the US layout in your desktop environment's keyboard configuration UI, for example in XFCE: 
+
 ![Picture of the layout](img/xfce-keyboard-dialog.png)
 
